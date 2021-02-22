@@ -1,0 +1,90 @@
+* {
+  font-size: 16px;
+  color: black;
+}
+.hallo {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.hallo-header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.hallo-buttons {
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hallo-title,
+.hallo-name {
+  font-size: 28px;
+  line-height: 32px;
+}
+.hallo-user-list {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0;
+}
+.credantials-item {
+  font-size: 20px;
+  line-height: 24px;
+  font-style: italic;
+  display: flex;
+}
+.hallo-sign-up {
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.hallo-sign-up:hover {
+  text-decoration: underline;
+}
+.credantials-remove {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.credantials-remove:hover {
+  border-radius: 50%;
+  background-color: #000000;
+  transition: 0.3s;
+}
+.credantials-remove-link {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) saturate(100%) invert(19%) sepia(8%) saturate(3867%)
+    hue-rotate(165deg) brightness(95%) contrast(93%);
+  cursor: pointer;
+  border-radius: 50%;
+}
+.credantials-remove-link:hover {
+  filter: brightness(0) saturate(100%) invert(97%) sepia(2%) saturate(7494%)
+    hue-rotate(278deg) brightness(124%) contrast(101%);
+  transition: 0.3s;
+}
+.credantials-item {
+  margin-right: 20px;
+}
+li {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.disabled {
+  display: none;
+}
+.current-user {
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(96, 161, 235);
+}
